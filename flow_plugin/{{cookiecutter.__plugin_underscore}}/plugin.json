@@ -1,0 +1,12 @@
+{
+  "ID": "uuid4",
+  "ActionKeyword": "{{cookiecutter.keyword}}",
+  "Name": "{{ cookiecutter.plugin_name }}",
+  "Description": "Search and cast your Plex Media Library",
+  "Author": "{{cookiecutter.author}}",
+  "Version": "0.0.0",
+  "Language": "python",
+  "Website": "https://github.com/{{cookiecutter.author}}/{{cookiecutter.__plugin_underscore}}",
+  "IcoPath": "./icon.png",
+  "ExecuteFileName": "entry.py"
+}
