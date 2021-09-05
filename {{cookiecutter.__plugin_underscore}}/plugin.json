@@ -8,5 +8,5 @@
   "Language": "python",
   "Website": "https://github.com/{{cookiecutter.author}}/{{cookiecutter.__plugin_underscore}}",
   "IcoPath": "./icon.png",
-  "ExecuteFileName": "entry.py"
+  "ExecuteFileName": "run.py"
 }
