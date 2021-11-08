@@ -2,6 +2,6 @@
 	"author": "author",
 	"plugin_name": "My plugin",
 	"keyword": "test",
-	"__plugin_underscore": "{{cookiecutter.plugin_name | lower | replace(' ', '_')}}",
+	"__plugin_underscore": "{{cookiecutter.plugin_name | lower | replace(' ', '-')}}",
 	"__plugin_snake": "{{cookiecutter.plugin_name | lower | title | replace(' ', '')}}"
 }
