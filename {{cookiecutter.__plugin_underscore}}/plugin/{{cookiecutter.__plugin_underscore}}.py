@@ -5,7 +5,7 @@ class {{cookiecutter.__plugin_snake}}(Flox):
     def query(self, query):
         pass
 
-    def context(self, data):
+    def context_menu(self, data):
         pass
 
 if __name__ == "__main__":
