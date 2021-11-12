@@ -36,3 +36,5 @@ clone_repo("https://github.com/Garulf/flow_workflows", [".github", "workflows"])
 add_uuid()
 
 run_cmd(["pip", "install", "--target=./lib", "-r", "requirements.txt"])
+
+run_cmd(["git", "init])
