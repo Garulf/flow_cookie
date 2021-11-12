@@ -4,7 +4,7 @@
   "Name": "{{ cookiecutter.plugin_name }}",
   "Description": "{{cookiecutter.description}}",
   "Author": "{{cookiecutter.author[0] | upper}}{{cookiecutter.author[1:]}}",
-  "Version": "0.0.0",
+  "Version": "0.0.1",
   "Language": "python",
   "Website": "https://github.com/{{cookiecutter.author}}/{{cookiecutter.__plugin_underscore}}",
   "IcoPath": "./icon.png",
