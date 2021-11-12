@@ -16,7 +16,7 @@ def read_manifest():
 def write_manifest(content):
     with open(PLUGIN_PATH, "w") as f:
         json.dump(content, f, indent=4)
-    return data
+    return content
 
 def run_cmd(cmd):
     process = subprocess.Popen(cmd)
