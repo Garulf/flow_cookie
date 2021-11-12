@@ -51,7 +51,7 @@ if __name__ == "__main__":
 
     run_cmd(["pip", "install", "--target=./lib", "-r", "requirements.txt"])
 
-    run_cmd(["git", "init])
+    run_cmd(["git", "init"])
          
     update_description(plugin_manifest["Description"])
          
