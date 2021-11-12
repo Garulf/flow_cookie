@@ -13,7 +13,7 @@ def read_manifest():
     with open(PLUGIN_PATH, "r") as f:
         return json.load(f)
     
-def write_manifest(data):
+def write_manifest(content):
     with open(PLUGIN_PATH, "w") as f:
         json.dump(content, f, indent=4)
     return data
