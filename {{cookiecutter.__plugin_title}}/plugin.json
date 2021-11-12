@@ -3,10 +3,11 @@
   "ActionKeyword": "{{cookiecutter.keyword}}",
   "Name": "{{ cookiecutter.plugin_name }}",
   "Description": "Search and cast your Plex Media Library",
-  "Author": "{{cookiecutter.author}}",
+  "Author": "{{cookiecutter.author[0] | upper}}{{cookiecutter.author[1:]}}",
   "Version": "0.0.0",
   "Language": "python",
   "Website": "https://github.com/{{cookiecutter.author}}/{{cookiecutter.__plugin_underscore}}",
   "IcoPath": "./icon.png",
   "ExecuteFileName": "run.py"
 }
+{{ test[0]|upper}}{{test[1:] }}
