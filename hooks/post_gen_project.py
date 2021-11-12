@@ -5,6 +5,7 @@ import os
 import subprocess
 import uuid
 import json
+import shutil
 
 PLUGIN_FILE = "plugin.json"
 PLUGIN_PATH = os.path.join(os.getcwd(), PLUGIN_FILE)
@@ -22,12 +23,14 @@ def run_cmd(cmd):
     process = subprocess.Popen(cmd)
     process.wait()
 
-def clone_repo(repo, dir):
+def clone_repo(repo, dir, delete_git=True):
     
     path = os.path.join(os.getcwd(), *dir)
     cmd = ["git", "clone", repo, path]
 
     run_cmd(cmd)
+    if delete_git:
+        shutil.rmtree(os.path.join(path, ".git"))
 
 def generate_uuid():
     return str(uuid.uuid4()).replace('-', '').upper()
