@@ -10,4 +10,3 @@
   "IcoPath": "./icon.png",
   "ExecuteFileName": "run.py"
 }
-{{ test[0]|upper}}{{test[1:] }}
