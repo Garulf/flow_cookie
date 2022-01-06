@@ -6,7 +6,7 @@
   "Author": "{{cookiecutter.author[0] | upper}}{{cookiecutter.author[1:]}}",
   "Version": "0.0.1",
   "Language": "python",
-  "Website": "https://github.com/{{cookiecutter.author}}/{{cookiecutter.__plugin_underscore}}",
+  "Website": "https://github.com/{{cookiecutter.author}}/{{cookiecutter.__plugin_dash}}",
   "IcoPath": "./icon.png",
   "ExecuteFileName": "run.py"
 }
