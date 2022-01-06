@@ -6,7 +6,7 @@ sys.path.append(plugindir)
 sys.path.append(os.path.join(plugindir, "lib"))
 sys.path.append(os.path.join(plugindir, "plugin"))
 
-from plugin.{{cookiecutter.__plugin_underscore}} import {{cookiecutter.__plugin_snake}}
+from plugin.main import {{cookiecutter.__plugin_snake}}
 
 if __name__ == "__main__":
     {{cookiecutter.__plugin_snake}}()
