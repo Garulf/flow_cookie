@@ -52,7 +52,10 @@ if __name__ == "__main__":
 
     add_uuid(plugin_manifest)
 
+    # Install requirements.txt
     run_cmd(["pip", "install", "--target=./lib", "-r", "requirements.txt"])
+    # update requirements.txt
+    run_cmd(["pip", "freeze", "--path=./lib", ">", "requirements.txt"])
 
     run_cmd(["git", "init"])
          
