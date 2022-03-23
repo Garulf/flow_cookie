@@ -119,3 +119,4 @@ flox
 # VScode
 
 .vscode/
+bin/
